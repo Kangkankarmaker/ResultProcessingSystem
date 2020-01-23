@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:shape="oval"
+    android:useLevel="true"
+    android:dither="true"
+    >
+
+    <size android:height="10dp" android:width="10dp"></size>
+
+    <solid android:color="#bebebe"></solid>
+
+</shape>

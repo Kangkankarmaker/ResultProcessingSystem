@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/card_bg2">
+
+        <TextView
+            android:id="@+id/txt_student_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textColor="#197984"
+             />
+
+
+        <TextView
+            android:id="@+id/txt_student_roll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="2"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+             />
+
+
+        <TextView
+            android:id="@+id/txt_student_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="3"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_student_dept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="4"
+            android:textColor="#412323"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_student_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="5"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Tap to see Result"
+            android:layout_gravity="center"
+            android:textColor="#000000"/>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txt_cgpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="26dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp" />
+
+
+</RelativeLayout>
+

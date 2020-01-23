@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:weightSum="3"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_weight="2"
+        android:weightSum="4"
+        android:background="@drawable/background"
+        android:orientation="horizontal">
+
+
+
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:hint="Loading..."
+            android:layout_marginLeft="13dp"
+            android:layout_gravity="top"
+            android:layout_weight="3"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+
+            />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/nonactive_dot"
+            android:drawableTop="@mipmap/logout"            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:weightSum="3"
+            tools:ignore="NestedWeights">
+
+            <Button
+                android:id="@+id/btn_add_student"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/met_btn_3"
+                android:drawableBottom="@drawable/add"
+                android:paddingBottom="32dp"
+                android:paddingEnd="38dp"
+                android:paddingRight="38dp"
+                android:text="Add student"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/btn_manage_stu"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_de4"
+                android:drawableBottom="@drawable/menu"
+                android:paddingBottom="32dp"
+                android:paddingEnd="38dp"
+                android:paddingRight="38dp"
+                android:text="Manage Student"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/btn_notification"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_de"
+                android:drawableBottom="@drawable/notification"
+                android:paddingBottom="33dp"
+                android:paddingEnd="38dp"
+                android:paddingRight="38dp"
+                android:text="Sent Notification"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                tools:ignore="RtlSymmetry" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_de"
+                android:drawableBottom="@drawable/students"
+                android:onClick="ShowPopup"
+                android:paddingBottom="32dp"
+                android:paddingEnd="38dp"
+                android:paddingRight="38dp"
+                android:text="Add result"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/btn_manage_result"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_de5"
+                android:drawableBottom="@drawable/edit"
+                android:paddingBottom="32dp"
+                android:paddingEnd="38dp"
+                android:paddingRight="38dp"
+                android:text="Manage result"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/met_btn_3"
+                android:drawableBottom="@drawable/about"
+                android:paddingBottom="32dp"
+                android:paddingEnd="38dp"
+                android:paddingRight="38dp"
+                android:text="About"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
